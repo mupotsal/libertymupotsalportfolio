@@ -92,9 +92,8 @@
     background-color: #212529;
   }
   
-  : 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  }
   
+
   #topnav .navbar-brand {
     color: #fed136;
     font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -155,8 +154,8 @@
   }
   header.bgimage {
     text-align: center;
+    background-image: url('/static/css/backgroundImage.jpg');;
     color: white;
-    background-image: url("bc.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
