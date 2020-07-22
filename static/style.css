@@ -154,7 +154,7 @@
   }
   header.bgimage {
     text-align: center;
-    background-image: url('/static/css/backgroundImage.jpg');;
+    background-image: url('/static/css/backgroundImage.jpg')
     color: white;
     background-repeat: no-repeat;
     background-attachment: scroll;
