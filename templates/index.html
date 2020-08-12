@@ -27,16 +27,16 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/templates/about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#resume">resume</a>
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#GITHUB">GITHUB</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#resume">resume</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -49,39 +49,57 @@
 
 
  <!-- background image -->
-  <header class="bgimage" >
+  <header class="bgimage"id="about" >
     <div class="container">
-      <div class="intro-text">
+      <div class="row">
+      <div class="intro-text col-md-7">
         <div class="intro-lead-in">Welcome to my Online Portfolio!</div>
           <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-          <a class ="btn btn-primary btn-xl text-uppercase js-scroll-trigger "href="#about">Tell me more about Liberty Mupotsa</a>
       </div>
+      <div class="col-md-5">
+        <img class="centered-and-cropped"src="/static/images/portfolioImage.jpg" style="height: 50%;margin-top: 50%;margin-right: 20%;opacity: 0.8">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8" style="opacity: 0.7">
+        <article id="article1" style="background-color: black;opacity:1;">
+          <h3>About Liberty</h3>
+          <p>I am a Junior Student Studying Computer Science and Mathematics at Berea College. Software Engineering and Data Science are my areas of interest. When I am not building web and mobile applications, I will be playing table-tennis.
+            </article>
+           <br></p>
+      </div>
+    </div>
+
     </div>
   </header>
-<section class="page-section" id= "about">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h2 class="section-heading text-uppercase" style="color: white">About</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <nav id="about_nav">
-          <img src="/static/css/download.png"  alt="face" style="width:300px;height:300px;">
-        </nav>
-        <article>
-            <h1>About <strong>Liberty Mupotsa</strong></h1>
-          <p>I am a Junior Student Studying Computer Science and <br>
-          Mathematics. Software Engineering and Data Science are my areas of interest.
-           **This Website is my project which I am still working on<br></p>
-        </article>
-      </div>
 
-    </div> 
-   </div>
+  <section class="page-section" id= "portfolio">
+       <div style="padding:5%">
+       <h2>Portfolio/Projects </h2>
+           <h4 style ="color:grey">Simple to do App</h4>
+             <strong>LINK to The App</strong>
+             <a href="https://github.com/mupotsal/SimpleToDo.git">To DO APP</a>
+           <h6>Description</h6>
+           <p> This is an android app which I developed <br>
+              which serves what a ToDo list serves</p>
+              <strong>Functionality</strong>
+              <p>One can add an item to the List</p>
+              <p>One can delete an item from the list</p>
+              <img src="walkthrough.gif">
 
-</section>
+           <h2>Flixster App</h2>
+           <h2>Scrolling through trending Movies</h2>
+           <img src="flixter_walkthrough2.gif">
+
+           //This is a test
+
+           <h3>Project 4</h3>
+           <h5>Description</h5>
+           <p> what doe the app do</p>
+     </div>
+   </section>
+
+
 <section class="page-section" id= "GITHUB">
     <div style="padding:5%;background-color:purple">
     <h2 style="color:white">GITHUB LINK</h2>
@@ -93,38 +111,13 @@
 <section class = "page-section" id="resume" style="background-color:white;padding:10%" >
   <div>
     <h2> <b>RESUME</b> </h2>
-      <p> Download resume<a  href="resume.pdf" >resume</a></p>      
+      <p> Download resume<a  href="resume.pdf" >resume</a></p>
   </div>
 </section>
 
 
 
-<section class="page-section" id= "portfolio">
-    <div style="padding:5%">
-    <h2>Portfolio/Projects </h2>
 
-        <h4 style ="color:grey">Simple to do App</h4>
-          <strong>LINK to The App</strong>
-          <a href="https://github.com/mupotsal/SimpleToDo.git">To DO APP</a>
-        <h6>Description</h6>
-        <p> This is an android app which I developed <br>
-           which serves what a ToDo list serves</p>
-           <strong>Functionality</strong>
-           <p>One can add an item to the List</p>
-           <p>One can delete an item from the list</p>
-           <img src="walkthrough.gif">
-
-        <h2>Flixster App</h2>
-        <h2>Scrolling through trending Movies</h2>
-        <img src="flixter_walkthrough2.gif">
-
-        //This is a test
-
-        <h3>Project 4</h3>
-        <h5>Description</h5>
-        <p> what doe the app do</p>
-  </div>
-</section>
 
 <section class="page-section" id= "Contact">
     <div style="padding:5%">
