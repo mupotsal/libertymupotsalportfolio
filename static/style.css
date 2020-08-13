@@ -149,9 +149,7 @@
   #about{
     background-color:brown
   }
-  #portfolio{
-    background-color: grey
-  }
+
   header.bgimage {
     text-align: center;
     background-image: url('../static/images/background3.jpg');
@@ -207,3 +205,31 @@
 #article1{
   color: white;
 }
+#imgDiv{
+Width:100%;
+}
+
+#imgDiv {
+height: 50%;
+}
+
+#portfolio {
+  background-image: url('../static/images/background3.jpg');
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: grey;
+}
+#portfolio1{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+#divisor{
+  padding-top: 5%;
+
+}
+
+/* img.animated-gif{
+  width{
+  }: auto;
+} */
