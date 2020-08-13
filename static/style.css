@@ -229,6 +229,31 @@ height: 50%;
 
 }
 
+#resume {
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-image: url('../static/images/background3.jpg');
+
+}
+
+#GITHUB {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-image: url('../static/images/background3.jpg');
+  color: white;
+
+}
+
+#Contact{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-image: url('../static/images/background3.jpg');
+  color: white;
+}
 /* img.animated-gif{
   width{
   }: auto;
